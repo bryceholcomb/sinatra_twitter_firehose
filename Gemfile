@@ -4,6 +4,7 @@ gem 'sinatra', require: 'sinatra/base'
 gem 'sinatra-contrib', require: 'sinatra/reloader'
 gem 'sinatra-partial', require: 'sinatra/partial'
 gem 'tweetstream'
+gem 'figaro'
 
 group :development do
   gem 'pry', require: 'pry'
