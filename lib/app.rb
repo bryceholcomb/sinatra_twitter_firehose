@@ -13,8 +13,6 @@ class Firehose < Sinatra::Base
   set :partial_template_engine, :erb
 
   get "/" do
-    require "pry"
-    binding.pry
     track("Obama")
     erb :index
   end
